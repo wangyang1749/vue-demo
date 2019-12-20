@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+import http from './http'
+Vue.prototype.$http=http
 
 new Vue({
   router,
